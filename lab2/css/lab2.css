@@ -1,0 +1,45 @@
+/*CSS file with all the cool little decorations*/
+body {
+    background-color: #918bdc;
+  }
+  
+  /*Font for the headers*/
+  h1,h2,h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  /*Decorations for the h1 at the top of the page(hello world)*/
+  h1 {
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-size: 200%;
+  }
+  
+  #content {
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px #413d3d;
+    background-color: #dbcdcd;
+  }
+  
+  .minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #413d3d;
+    background-color: #dbcdcd;
+  }
+  /*Photo of me decorations*/
+  .kye-photo {
+    margin: 10px;
+    max-width: 500px;
+    border: 5px solid #555;
+  }  
+  /*Changing the font for the text inside of the paragraphs*/
+  p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .kaiwen-photo {
+    margin: 10px;
+    max-width: 500px;
+    border: 5px solid #555;
+  }
