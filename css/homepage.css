@@ -5,14 +5,3 @@
   max-width: 500px;
   border: 5px solid #555;
 }
-/* Adding borders to the other pictures of Shaq cause why not. */
-.shaq-photo {
-  margin: 10px;
-  max-width: 500px;
-  border: 5px solid #555;
-}
-.shaq-dunking {
-  margin: 10px;
-  max-width: 500px;
-  border: 5px solid #00e6ff;
-}

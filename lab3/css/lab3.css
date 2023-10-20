@@ -1,0 +1,48 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+  body {
+    background-color: #5978d6;
+  }
+  
+  /* we can have rules apply to multiple elements at the same time with commas */
+  h1,h2,h3 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4b0c0c;
+  }
+  
+  /* and we can have rules that overlap other rules, both take effect */
+  h1 {
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-size: 200%;
+  }
+  p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
+  #content {
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px #413d3d;
+    background-color: #5f616e;
+  }
+  .minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #ffffff;
+  }
+  .file-structure {
+    width: 500px;
+  }
+  .lab3-HTML {
+    width: 500px;
+  }
+  .git-hub {
+    width: 500px;
+  }
+  .files {
+    width: 500px;
+  }
