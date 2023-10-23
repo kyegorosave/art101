@@ -1,15 +1,13 @@
-/* we can use a single css file to style all the files in our wwebsite */
-
-/* you can pick your own background colors, text colors, and fonts */
-
-/* we can select an html element tag, in this case "body" will apply to the whole document */
+@import url('https://fonts.cdnfonts.com/css/8bit-wonder');
 body {
   background-color: #93dc9f;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
 h1,h2,h3 {
-  font-family: monospace;
+  font-family: "8BIT WONDER", sans-serif;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 /* and we can have rules that overlap other rules, both take effect */
