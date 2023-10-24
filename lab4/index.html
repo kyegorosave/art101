@@ -2,46 +2,80 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
-
+	<title>Lab 4 - Pseudocoding and Problem Solving</title>
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
 	<!-- Set viewport so page remains consistently scaled w narrow devices -->
   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	
-	<!-- Include a sitewide CSS file for consistent styling across the site -->
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<!-- Lab-specifc CSS file for any special styling of this particular page -->
-	<link rel="stylesheet" type="text/css" href="css/lab.css">
-	
+	<link rel="stylesheet" type="text/css" href="./css/lab4.css">
+	<!--Link to 8-bit theme font-->
+	<link href="https://fonts.cdnfonts.com/css/8bit-wonder" rel="stylesheet">
 	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
-	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+	<script type="text/javascript" src="./js/lab4.js" DEFER></script>
 </head>
+<!--Actual page stuff-->
 <body>
-	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 4: Pseudocoding and Problem Solving - Kye Gorosave & Kaiwen Su</h1>
 			<div class="minor-section">
-					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<h2><u>Challenge</u></h2>
+					<p>The challenge of this lab is to confidently be able to plan out your code through 
+						the method of pseudocoding. By doing so, you are able to plan things out before you start your actual coding, giving
+						you a better basis to work off of and allowing you to work more efficiently. Working as a team and being able to plan things
+						out and set things up to be able to work better is also another important aspect.
+					</p>
 			</div>
 
 			<div class="minor-section">
-					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<h2><u>Problems</u></h2>
+						<p>Didn't really have any problems during the process of making this. Everything was pretty straightforward and the 
+						only problems I had were configuring the CSS file to get everything in working order. Adding the pre tags were
+						kinda difficult too because it wasn't working for a sec, but I just realized I forgot to save my file and then it worked.
+						Overall, good lab. 
+					</p>
 			</div>
 
 			<div class="minor-section">
-					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<h2><u>Reflection</u></h2>
+					<p>The assignment was actually pretty tame compared to the other labs. The directions were very straightforward and easy to
+						follow. Ran into a few problem with the CSS file and the JS file, but eventually was able to figure it out. Put in a pretty good
+						amount of effort for this lab. Worked hard on making the page looking pleasing and the colors worked well together. The 8-bit font too
+						is a nice touch.
+					</p>
 			</div>
 
 			<div class="minor-section">
-					<h2>Results</h2>
+					<h2><u>Results</u></h2>
 					<div id="output"></div>
+					<h5>Javascript Pseudocode</h5>
+					<p><pre><code>//Rock-Paper-Scissors Game
+//Kye Gorosave 
+//Mon Oct. 23 2023
+						
+//Explain the rules of the game
+	//Paper loses to scissors, rock loses to paper, and scissors lose to rock. 
+//Ask the player for their choice at the beginning of each turn
+	//Choose rock or paper or scissors
+//Generate a random choice for either rock, paper, or scissors.
+	//random function with a choice of either rock, paper, or scissors
+//Compare player vs computer choice
+	//if(choice=same) then display “ITS A DRAW”
+		//else if player chooses rock and computer scissors, OR player chooses scissors and computer chooses paper, 
+		OR player chooses paper and computer chooses rock DISPLAY “YOU WIN!”
+	//else display “COMPUTER WINS!”
+//Show computers choice and see if it was a win, draw, or loss and then ask them if they want to play again
+					</code></pre></p>
+					<h5>Screenshots</h5>
+					<h6><u>Javascript Pseudocode</u></h6>
+					<img class="js-lab4" src="./img/js-lab4.png">
+					<h6><u>index.html Lab 4 File</u></h6>
+					<img class="index-lab4" src="./img/index-lab4.png">
+					<h6><u>Lab 4 CSS file</u></h6>
+					<img class="css-lab4" src="./img/css-lab4.png">
 			</div>
 		</section>
 		<nav id="links">

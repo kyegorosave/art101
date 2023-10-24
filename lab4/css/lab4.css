@@ -1,0 +1,55 @@
+/*Importing the 8-bit font*/
+@import url('https://fonts.cdnfonts.com/css/8bit-wonder');
+/*Adding the background color of the website*/
+body {
+  background-color: dimgray;
+}
+h1 {
+  font-family: "8BIT WONDER", sans-serif;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-size: 250%;
+}
+h2 {
+  font-family: "8BIT WONDER", sans-serif;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+h5 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+h6 {
+  font-family: "8BIT WONDER", sans-serif;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  font-size:xx-small;
+}
+p {
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.js-lab4{
+  width: 500px;
+}
+.index-lab4{
+  width: 500px;
+}
+.css-lab4{
+  width: 500px;
+}
+#content {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px dimgray;
+  background-color: #CDDC39;
+}
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #413d3d;
+  background-color: dimgray;
+}
