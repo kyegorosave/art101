@@ -34,8 +34,9 @@ h3 {
 p {
   color:#1F1717;
   font-family: "Strong", sans-serif;
-  font-size: 125%;
+  font-size: 150%;
 }
+/*Changing the text boxes and making them round*/
 #content {
   margin: 10px;
   padding: 20px;
@@ -43,6 +44,7 @@ p {
   background-color: #CE5A67;
   border-radius: 25px;
 }
+/*More roundness and bolder borders for the more retro-y look*/
 .minor-section {
   padding: 20px;
   margin-bottom: 10px;
@@ -51,7 +53,34 @@ p {
   border-radius: 25px;
   border-width: 10px;
 }
+/*Beautiful audi pic being positioned to the right*/
 .audi-pic {
   width: 400px;
   float: right;
+}
+/*Results Pictures getting changed and moved*/
+.js-web-browser{
+  width: 500px;
+  border: solid 1px #000000;
+  border-width: 5px;
+}
+.js-file-lab5{
+  width: 500px;
+  border: solid 1px #010101;
+  border-width: 5px;
+}
+.lab5-index{
+  width: 500px;
+  border: solid 1px #000000;
+  border-width: 5px;
+}
+.lab5-local{
+  width: 500px;
+  border: solid 1px #000000;
+  border-width: 5px;
+}
+.lab5-live{
+  width: 500px;
+  border: solid 1px #000000;
+  border-width: 5px;
 }
