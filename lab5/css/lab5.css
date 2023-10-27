@@ -1,0 +1,57 @@
+/*
+CSS Style sheet for Lab 5
+*/
+/*Importing the Vaguely Retro font*/
+@import url('https://fonts.cdnfonts.com/css/vaguely-retro');
+/*Importing the Vaguely Retro font*/
+@import url('https://fonts.cdnfonts.com/css/strong-2');
+/*Importing the Monotone font*/
+@import url('https://fonts.cdnfonts.com/css/monotone');
+/*Changing the background color of the website*/
+body {
+  background-color: #FCF5ED;
+}
+/*Changing up h1*/
+h1 {
+  font-family: "Vaguely Retro", sans-serif;
+  color: #1F1717;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-size: 350%;
+}
+/*Changing up the h2's in the file*/    
+h2 {
+  font-family: "Vaguely Retro", sans-serif;
+  color: #1F1717;
+  font-size: 200%;
+} 
+/*Changing up the h3 in the file*/   
+h3 {
+  font-family: "Strong", sans-serif;
+  color: #1F1717;
+}     
+/*Changing the paragraphs in the file*/
+p {
+  color:#1F1717;
+  font-family: "Strong", sans-serif;
+  font-size: 125%;
+}
+#content {
+  margin: 10px;
+  padding: 20px;
+  border: solid 1px #F4BF96;
+  background-color: #CE5A67;
+  border-radius: 25px;
+}
+.minor-section {
+  padding: 20px;
+  margin-bottom: 10px;
+  border: solid 1px #F4BF96;
+  background-color: #FCF5ED;
+  border-radius: 25px;
+  border-width: 10px;
+}
+.audi-pic {
+  width: 400px;
+  float: right;
+}
