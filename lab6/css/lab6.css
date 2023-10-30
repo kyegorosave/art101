@@ -1,0 +1,63 @@
+/*
+CSS Style sheet for lab 6
+*/
+/*
+Importing fonts for the page
+*/
+@import url('https://fonts.cdnfonts.com/css/futuremillennium');
+@import url('https://fonts.cdnfonts.com/css/promova');
+/*Changing the Background Color of the website*/
+body {
+    background-color: #202124;
+}
+/*Changing the h1*/  
+h1 {
+    font-family: 'FutureMillennium', sans-serif;
+    color: white;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-size: 350%;
+}              
+/*Changing up the h2's in the file*/    
+h2 {
+    font-family: "FutureMillennium", sans-serif;
+    color: white;
+    font-size: 200%;
+  } 
+/*Changing the paragraphs*/
+p {
+    color: white;
+    font-family: 'PROMOVA', sans-serif;
+    font-size: 100%;
+}
+/*Changing the text boxes and making them round*/
+#content {
+    margin: 10px;
+    padding: 20px;
+    border: solid 1px #606368;
+    background-color: #3c4042;
+    border-radius: 25px;
+  }
+  .minor-section {
+    padding: 20px;
+    margin-bottom: 10px;
+    border: solid 1px #606368;
+    background-color: #3c4042;
+    border-radius: 25px;
+    border-width: 10px;
+  }
+  /*Changing the pics*/
+.harley-pic {
+    width: 400px;
+    float: right;
+  }
+.javascript-console {
+    width: 500px;
+    border: solid 1px #000000;
+    border-width: 5px;
+}
+.js-source {
+    width: 500px;
+    border: solid 1px #000000;
+    border-width: 5px;
+}
