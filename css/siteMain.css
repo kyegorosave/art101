@@ -1,0 +1,121 @@
+/*
+CSS Style sheet for lab 6
+*/
+/*
+Importing fonts for the page
+*/
+@import url('https://fonts.cdnfonts.com/css/averral');
+@import url('https://fonts.cdnfonts.com/css/fizzy-soda');
+/*Changing the Background Color of the website*/
+body {
+    background-color: #202124;
+}
+/*Changing the h1*/  
+h1 {
+    font-family: 'Fizzy Soda', sans-serif;
+    color: white;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-size: 350%;
+    text-shadow: 4px 12px black;
+}              
+/*Changing up the h2's in the file*/    
+h2 {
+    font-family: "Fizzy Soda", sans-serif;
+    color: white;
+    font-size: 200%;
+    text-shadow: 4px 12px black;
+  } 
+/*Changing the paragraphs*/
+p {
+    color: white;
+    font-family: 'Averral', sans-serif;
+    font-size: 125%;
+    text-shadow: 1px 1px black;
+}
+.kye-photo {
+    margin: 10px;
+    max-width: 275px;
+    border: 5px solid #3b0000;
+    float: right;
+    border-radius: 750px;
+}
+/*Changing the text boxes and making them round*/
+#content {
+    margin: 10px;
+    padding: 20px;
+    border: solid 1px #606368;
+    background-color: #3c4042;
+    border-radius: 25px;
+  }
+  .minor-section {
+    padding: 20px;
+    margin-bottom: 10px;
+    border: solid 1px #3b0000;
+    background-color: #3c4042;
+    border-radius: 25px;
+    border-width: 10px;
+  }
+  /*MStyling the navbar*/
+  .navbar {
+    overflow: hidden;
+    background-color: #3b0000;
+    border-radius: 10px;
+  }
+  /*Changing the font and stuff for the content IN the navbar*/
+  .navbar a {
+    float: left;
+    font-size: 20px;
+    font-family: "Fizzy Soda", sans-serif;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-shadow: 5px -3px black;
+  }
+  /*Dropdown menu for the labs and stuff*/
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    
+  }
+  /*Changing content IN the dropdown AND dropdown buttin*/
+  .dropdown .dropbtn {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: "Fizzy Soda", sans-serif;
+    margin: 0;
+  }
+  /*Changing the color of when you hover over the GitHub link or the Labs*/
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #5b0101;
+  }
+  /*Making the background of the dropdown transparent and stuff*/
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000c7;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  /*Changing the content inside of the dropdown*/
+  .dropdown-content a {
+    float: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    font-family: 'Averral', sans-serif;
+    display: block;
+    text-align: left;
+  }
+  /*Chaning the color of when you hover over the labs in the dropdown(transparent)*/
+  .dropdown-content a:hover {
+    background-color: #dddddd79;
+  }
+  /*More dropdown hover stuff*/
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

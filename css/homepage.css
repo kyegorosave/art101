@@ -1,7 +1,0 @@
-/* this css file will only style the homepage of our site */
-/* Added a border to the main picture of me when you open up the page because it looks better */
-.kye-photo {
-  margin: 10px;
-  max-width: 500px;
-  border: 5px solid #555;
-}
