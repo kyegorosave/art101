@@ -1,0 +1,53 @@
+@import url('https://fonts.cdnfonts.com/css/mono-polz');
+@import url('https://fonts.cdnfonts.com/css/perls-hearts');
+
+body {
+    background-color: #9BABB8;
+    margin: 30px;
+}
+/*Changing the h1*/  
+h1 {
+    font-family: 'Mono Polz', sans-serif;
+    color: black;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-size: 350%;
+}              
+/*Changing up the h2's in the file*/    
+h2 {
+    font-family: "Mono Polz", sans-serif;
+    color: black;
+    font-size: 200%;
+  } 
+/*Changing the paragraphs*/
+p {
+    color: black;
+    font-family: 'Perls Hearts', sans-serif;
+    font-size: 100%;
+}
+/*Changing the text boxes and making them round*/
+#content {
+    margin: 10px;
+    padding: 20px;
+    border: solid 1px #EEE3CB;
+    background-color: #D7C0AE;
+    border-radius: 25px;
+  }
+  .minor-section {
+    padding: 20px;
+    margin-bottom: 10px;
+    border: solid 1px #967E76;
+    background-color: #EEE3CB;
+    border-radius: 25px;
+    border-width: 10px;
+  }
+  .js-file {
+    width: 500px;
+    border: solid 1px #000000;
+    border-width: 5px;
+  }
+  .lab-HTML {
+    width: 500px;
+    border: solid 1px #000000;
+    border-width: 5px;
+  }
