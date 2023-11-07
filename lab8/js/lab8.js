@@ -1,3 +1,9 @@
+//
+//Author: Kye Gorosave & Kevin Su
+//Created: 6 November, 2023
+//License: Public Domain
+//For: ART101 Professor Wes Modes UCSC FALL 2023
+
 //Creating the array of the numbers that are going to be square rooted
 var numbersArray = [1, 4, 9, 16, 25];
 //Creating the funciton that will find the sqrt 
