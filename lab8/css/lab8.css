@@ -1,0 +1,80 @@
+/*Linking the fonts used*/
+@import url('https://fonts.cdnfonts.com/css/blowreph');
+@import url('https://fonts.cdnfonts.com/css/pink-fresh');
+@import url('https://fonts.cdnfonts.com/css/lt-binary-neue');
+/*Changing the background color of the site*/
+body {
+    background-color: #303330;
+}
+#content {
+    text-align: center;
+    background-color: #decfc8;
+    color: #303330;
+    height: 5rem;
+    padding-top: 3rem;
+    font-family: 'Pink Fresh', sans-serif;
+    font-size:x-large;
+    letter-spacing: 0.15cm;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-family: 'Blowreph', sans-serif;
+    font-size: 110%;
+    letter-spacing: 0.01cm;
+    color: #181818;
+}
+.minor-section {
+    padding: 15px;
+    align-content: baseline;
+    margin-bottom: 20px;
+    border: solid 1px #decfc8;
+    background-color: #3d4129;
+    border-radius: 25px;
+    border-width: 5px;
+    margin: 10px;
+}
+h2 {
+    font-family: 'Pink Fresh', sans-serif;
+    color: #181818;
+    font-size: 220%;
+    margin: 2px;
+}
+h4 {
+    font-family: 'Pink Fresh', sans-serif;
+    color: #181818;
+    font-size: 150%;
+    margin: 2px;
+}
+#links {
+    font-family: 'Blowreph', sans-serif;
+    text-decoration: none;
+    margin: 20px;
+}
+span {
+    font-weight: bold;
+    font-family: 'LT Binary Neue Round', sans-serif;
+    color: white;
+}
+.lab8-source {
+    width: 500px;
+    border: solid 1px #000000;
+    border-width: 5px;
+}
+.lab8-console {
+    width: 500px;
+    border: solid 1px #000000;
+    border-width: 5px;
+}
+.lab8-js {
+    width: 500px;
+    border: solid 1px #000000;
+    border-width: 5px;
+}
+.lab8-local {
+    width: 500px;
+    border: solid 1px #000000;
+    border-width: 5px;
+}
