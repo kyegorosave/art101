@@ -1,121 +1,274 @@
-/*
-CSS Style sheet for lab 6
-*/
-/*
-Importing fonts for the page
-*/
-@import url('https://fonts.cdnfonts.com/css/averral');
-@import url('https://fonts.cdnfonts.com/css/fizzy-soda');
-/*Changing the Background Color of the website*/
+/*Kye Gorosave CSS file with help from https://codepen.io/Errec/pen/JKppYz?editors=1000*/
+
+@import url('https://fonts.cdnfonts.com/css/pixelify-sans');
+@import url('https://fonts.cdnfonts.com/css/m-plus-1-code');
+
 body {
-    background-color: #202124;
+  font-family: 'Pixelify Sans', sans-serif;
+  background-color: #F4F4F4;
 }
-/*Changing the h1*/  
-h1 {
-    font-family: 'Fizzy Soda', sans-serif;
-    color: white;
-    letter-spacing: 5px;
-    word-spacing: 5px;
-    font-size: 350%;
-    text-shadow: 4px 12px black;
-}              
-/*Changing up the h2's in the file*/    
-h2 {
-    font-family: "Fizzy Soda", sans-serif;
-    color: white;
-    font-size: 200%;
-    text-shadow: 4px 12px black;
-  } 
-/*Changing the paragraphs*/
-p {
-    color: white;
-    font-family: 'Averral', sans-serif;
-    font-size: 125%;
-    text-shadow: 1px 1px black;
+/* Start: menu*/
+header {
+  background: #151515;
+  width: 100%;
+  left: 0;
 }
-.kye-photo {
-    margin: 10px;
-    max-width: 275px;
-    border: 5px solid #3b0000;
-    float: right;
-    border-radius: 750px;
+
+.kye-photo{
+    width: 500px;
 }
-/*Changing the text boxes and making them round*/
-#content {
-    margin: 10px;
-    padding: 20px;
-    border: solid 1px #606368;
-    background-color: #3c4042;
-    border-radius: 25px;
-  }
-  .minor-section {
-    padding: 20px;
-    margin-bottom: 10px;
-    border: solid 1px #3b0000;
-    background-color: #3c4042;
-    border-radius: 25px;
-    border-width: 10px;
-  }
-  /*MStyling the navbar*/
-  .navbar {
-    overflow: hidden;
-    background-color: #3b0000;
-    border-radius: 10px;
-  }
-  /*Changing the font and stuff for the content IN the navbar*/
-  .navbar a {
-    float: left;
-    font-size: 20px;
-    font-family: "Fizzy Soda", sans-serif;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-shadow: 5px -3px black;
-  }
-  /*Dropdown menu for the labs and stuff*/
-  .dropdown {
-    float: left;
-    overflow: hidden;
-    
-  }
-  /*Changing content IN the dropdown AND dropdown buttin*/
-  .dropdown .dropbtn {
-    font-size: 20px;  
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: "Fizzy Soda", sans-serif;
-    margin: 0;
-  }
-  /*Changing the color of when you hover over the GitHub link or the Labs*/
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #5b0101;
-  }
-  /*Making the background of the dropdown transparent and stuff*/
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #000000c7;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  /*Changing the content inside of the dropdown*/
-  .dropdown-content a {
+
+#menuIcon {
+    width: 189px;
+    height: 107px;
+}
+nav {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.logo-box {
+  float: left;
+  margin-left: 10px;
+}
+
+.logo {
+  height: 70px;
+}
+
+.ul-0 {
+  margin: 0;
+  margin-right: 25px;
+  padding-left: 0;
+  list-style: none;
+  float: right;
+  height: 70px;
+  line-height: 70px;
+  text-align:center;
+}
+
+.a-logo {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  
+}
+
+.a-0 {
+  color: white;
+  text-transform: uppercase;
+  font-size:125%;
+  padding: 15px;
+}
+
+.a-0:hover {
+    color: #868686;
+    text-decoration: none;
+}
+
+.li-0 {
+  display: inline-block;
+  margin-left: 25px;
+  transition: .5s linear;
+}
+
+.a-0:hover:after{
+  width: 100%;
+}
+@media screen and (max-width:574px) {
+  .logo-box {
     float: none;
-    color: rgb(255, 255, 255);
-    padding: 12px 16px;
-    font-family: 'Averral', sans-serif;
-    display: block;
-    text-align: left;
+    margin: 0 auto;
   }
-  /*Chaning the color of when you hover over the labs in the dropdown(transparent)*/
-  .dropdown-content a:hover {
-    background-color: #dddddd79;
-  }
-  /*More dropdown hover stuff*/
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+  .ul-0 {
+    float: none;
+    margin: 0 25px;
+    }
+ .li-0:first-of-type {margin-left:0}
+}
+
+@media screen and (max-width:493px) {
+nav {
+  overflow: visible
+}
+.ul-0 {
+  height: auto;
+  padding-top: 30px;
+  line-height: 30px;
+}
+.li-0 {
+  display: block;
+  margin: 0;
+}
+}
+
+/* end of menu -> textBox*/
+.textBox {
+  height: 350px;
+  background-color: #151515;
+}
+
+ .textBox p {
+  letter-spacing: 10px;
+  color: white;
+  padding: 85px 40px 0 20px;
+  font-size: 220%;
+  line-height: 50px;
+  font-weight: 100;
+  margin: inherit;
+  font-family: 'M PLUS 1 Code', sans-serif;
+}
+/* end of textBox-> heroBox*/
+
+
+/* end of heroBox -> skillBox*/
+
+
+#container-3 {
+  background-color:#151515;
+
+}
+
+#container-3 h3{
+    color:#F4F4F4;
+    padding: 85px 40px 0px 20px;
+    letter-spacing: 4px;
+    font-size: xx-large;
+}
+
+#grid {
+    max-width:100%;
+    margin:0 auto;
+    padding:0;
+    font-size:0;
+    list-style:none;
+    background-color:#151515;
+  
+}
+#grid li {
+    display: inline-block;
+    width:25%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+        
+.gridCell {
+  border:3px solid #151515;
+    display:block;
+    position: relative;
+    overflow:hidden;
+}
+        
+.gridImg {
+    display:block;
+    width: 100%;
+    height: auto;
+    border:none;
+    transform:scale(1);
+    transition:all 0.8s;
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+  
+    
+}
+
+#grid li:hover .gridImg {
+    transform:scale(1.05);
+      -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+  
+}
+        
+/* If have the overlay layer */
+.gridOverlay {
+    position: absolute;
+    display:block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #F4F4F4 
+    background-size: 50px 50px;
+    opacity: 0;
+    transition:all 0.6s;
+  
+}
+
+#grid li:hover .gridOverlay {
+    opacity:0.2;
+  
+}
+
+.gridText {
+    display:block;
+    box-sizing:border-box;
+    position:absolute;
+    margin: auto auto auto -4.1em;
+    left: 50%;
+    padding: 15px;
+    text-align:center;
+    background-color: #151515;
+  border-radius: .2em;
+  
+    font-size:18px;
+    top:50%;
+    color:white;
+    opacity:0;
+    transform:translateY(30px);
+    transition:all .4s;
+}
+#grid li:hover .gridText {
+    transform:translateY(0px);
+    opacity:0.9;
+}
+
+@media (max-width: 9000px) {
+    #grid li {
+        width:33.33%;
+    }
+}
+
+@media (max-width: 700px) {
+    #grid li {
+        width:50%;
+    }
+}
+
+@media (max-width: 550px) {
+    #grid li {
+        width:100%;
+    }
+}
+
+/* end of workBox -> aboutBox*/
+
+#container-4 {
+  width: 100%;  
+  margin: auto;
+  padding-bottom: 100px;
+  background: #151515;
+  color: white;
+  
+}
+
+.the-author {
+    font-size: 200%;
+    line-height: 3.3;
+    margin-left: 20px;
+}
+.about {
+  display: block;
+  letter-spacing: 2px;
+  
+}
+
+.about h3, .contact h3, .follow h3 {
+  margin: none;
+}
+
+

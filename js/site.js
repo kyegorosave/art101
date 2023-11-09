@@ -1,21 +1,37 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+//Kye Gorosave
+//November 9th 2023
+//JavaScript container interactivity help from https://codepen.io/Errec/pen/JKppYz?editors=1000
+//ART101 Fall 2023 Wes Modes
 
-// Constants
 
-// Functions
+$(document).ready(function(){
+	$('a[href^="#container-2"]').on('click',function (e) {
+	    e.preventDefault();
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+	    var target = this.hash;
+	    var $target = $(target);
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+  
 
-// let's get this party started
-main();
+    
+$('a[href^="#container-4"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+  
+  
+});

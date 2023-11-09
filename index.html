@@ -2,63 +2,108 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<link rel="icon" type="image/x-icon" href="./img/mm-shaq.png">
 	<title>Whole lotta Kye!</title>
-	<link rel="icon" type="image/x-icon" href="./img/mm-shaq.png">
 	<!-- Use UTF character set, a good idea with any webpage -->
 	<meta charset="UTF-8" />
 	<!-- Set viewport so page remains consistently scaled w narrow devices -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<!-- Include a sitewide CSS file for consistent styling across the site -->
-	<link rel="stylesheet" type="text/css" href="./css/site.css">
-	<!--Fonts-->
-	<link href="https://fonts.cdnfonts.com/css/averral" rel="stylesheet">
-    <link href="https://fonts.cdnfonts.com/css/fizzy-soda" rel="stylesheet">            
-	<!-- <script type="text/javascript" src="./js/lab.js" DEFER></script> -->
-
+	<link rel="stylesheet" type="text/css" href="./css/site.css"">
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+	<script type="text/javascript" src="./js/site.js" DEFER></script>
+    <!--Fonts-->
+    <link href="https://fonts.cdnfonts.com/css/pixelify-sans" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/m-plus-1-code" rel="stylesheet">
+                            
 </head>
 <body>
-	<!--Main Body Stuff-->
-	<main id="content">
-		<!--Menu bar for my GitHub page Link and my Labs linked in a seperate dropdown
-		(With help from W3Schools)-->
-		<div class="navbar">
-			<a href="https://github.com/kyegorosave" target="_blank">GitHub</a>
-			<!--Dropdown i was talking about-->
-			<div class="dropdown">
-			  <button class="dropbtn">Labs 
-				<i class="fa fa-caret-down"></i>
-			  </button>
-			  <!--Linking all the labs-->
-			  <div class="dropdown-content">
-				<a href="https://kyegorosave.github.io/art101/lab2/">Lab 2: HTML & CSS Starter</a>
-				<a href="https://kyegorosave.github.io/art101/lab3/">Lab 3: File Structure and Transfer</a>
-				<a href="https://kyegorosave.github.io/art101/lab4/">Lab 4: Pseudocoding and Problem-Solving</a>
-				<a href="https://kyegorosave.github.io/art101/lab5/">Lab 5: Data Types and Variables</a>
-				<a href="https://kyegorosave.github.io/art101/lab6/">Lab 6: Arrays and Objects</a>
-				<a href="https://kyegorosave.github.io/art101/lab7/">Lab 7: Functions</a>
-				<a href="https://kyegorosave.github.io/art101/lab8/">Lab 8: Anon Functions and Callbacks</a>
-				<a href="https://kyegorosave.github.io/art101/lab9/">Lab 9: Libraries and jQuery</a>
-				<a href="https://kyegorosave.github.io/art101/lab10/">Lab 10: Javascript for the Web</a>
-			  </div>
-			</div>
-		  </div>
-		  <!--Getting into the stuff about moi-->
-		  <img class="kye-photo" src="./img/kye-photo.jpeg">
-		<section>
-			<h1>Kye</h1>
-			<h1>Gorosave</h1>
-			<div class="minor-section">
-					<!-- Note that all filenames use lowercase and no spaces -->
-					<h2>About Kye</h2>
-					<p>My name is Kye Gorosave and I am a 3rd year transfer at UCSC. I took this class becuase I have an interest in Front-End 
-						development and the class helped me dive into the topic. I have some development experience, but haven't been actively practicing 
-						so I need a refresher on some stuff. I am from the San Diego area and live in a town named Murrieta. I moved to and have been
-						living in San Jose for the last year and a half because WHY NOT?(I miss San Diego). In my free time I like to do a lot of random things
-						to keep me occupied such as playing video games, volleyball, surfing(learning), going to the beach, reading a book outside, going on a hike,
-						and riding motorcycles. FUN FACT: I have the same birthday as SHAQ, March 6th!</p>
-			</div>
-		</section>
-	</main>
-</body>
-</html>
+  <!--Picture of my dog in the top left(png)-->
+    <header>
+        <nav>
+      <div class="logo-box">
+        <h1 class="logo">
+          <a class="a-logo" href="./images/dale.png">
+            <img id="menuIcon" src="./images/dale.png">
+          </a>
+        </h1>
+        <!--Putting the links to GitHub and different spots on the page.-->
+      </div>
+      <ul class="ul-0">
+        <li class="li-0"><a class="a-0" href="https://github.com/kyegorosave">GitHub</a></li>
+        <li class="li-0"><a class="a-0" href="#container-3">Labs</a></li>
+        <li class="li-0"><a class="a-0" href="#container-4">About</a></li>
+     </ul>
+    </nav>
+      </header>
+    <!--Textbox with my fav quote-->
+    <div class="textBox">
+      <div>
+        <p>Kye Gorosave ART101 Fall 2023</p>
+      </div>
+<!--Splitting the page to my labs where you hover and can go to them and shit-->
+    <div id="container-3">
+      <h3>MY LABS: </h3>
+    <ul id="grid">
+      <li>
+          <a class="gridCell" href="https://kyegorosave.github.io/art101/lab2/">
+              <img class="gridImg" src="./images/lab-2.png">
+              <span class="gridOverlay"></span>
+              <span class="gridText">View Lab 2</span>
+          </a>
+      </li>
+      <li>
+          <a class="gridCell" href="https://kyegorosave.github.io/art101/lab3/">
+              <img class="gridImg" src= "./images/lab-3.png">
+              <span class="gridOverlay"></span>
+              <span class="gridText">View Lab 3</span>
+          </a>
+      </li>
+      <li>
+          <a class="gridCell" href="https://kyegorosave.github.io/art101/lab4/">
+              <img class="gridImg" src="./images/lab-4.png">
+              <span class="gridOverlay"></span>
+              <span class="gridText">View Lab 4</span>
+          </a>
+      </li>
+      <li>
+          <a class="gridCell" href="https://kyegorosave.github.io/art101/lab5/">
+              <img class="gridImg" src="./images/lab-5.png">
+              <span class="gridOverlay"></span>
+              <span class="gridText">View Lab 5</span>
+          </a>
+      </li>
+      <li>
+          <a class="gridCell" href="https://kyegorosave.github.io/art101/lab6/">
+              <img class="gridImg" src="./images/lab-6.png">
+              <span class="gridOverlay"></span>
+              <span class="gridText">View Lab 6</span>
+          </a>
+      </li>
+      <li>
+          <a class="gridCell" href="https://kyegorosave.github.io/art101/lab7/">
+              <img class="gridImg" src="./images/lab-7.png">
+              <span class="gridOverlay"></span>
+              <span class="gridText">View Lab 7</span>
+          </a>
+      </li>
+      <li>
+        <a class="gridCell" href="https://kyegorosave.github.io/art101/lab8/">
+            <img class="gridImg" src="./images/lab-8.png">
+            <span class="gridOverlay"></span>
+            <span class="gridText">View Lab 8</span>
+        </a>
+    </li>
+<!--End of labs stuff-->
+  </ul>
+    </div>
+<!--Getting started on the stuff about me and the conact stuff being included(link gets sent to nothing tbh)-->
+    <div id="container-4" class="row">
+      <section class="about col-lg-4 col-sm-4 col-xs-12">
+          <h3><span class = "the-author">THE AUTHOR</span></h3>
+          <p>My name is Kye Gorosave and I am a 3rd year transfer at UCSC. I took this class becuase I have an interest in Front-End development and the class helped me dive into the topic. I have some development experience, but haven't been actively practicing so I need a refresher on some stuff.</p>
+          <p>I am from the San Diego area and live in a town named Murrieta. I moved to and have been living in San Jose for the last year and a half because WHY NOT?(I miss San Diego). In my free time I like to do a lot of random things to keep me occupied such as playing video games, volleyball, surfing(learning), going to the beach, reading a book outside, going on a hike, and riding motorcycles. FUN FACT: I have the same birthday as SHAQ, March 6th! And here is a pic of me eating some avocado toast!</p>
+          <img class = "kye-photo" src = "./images/kye-photo.png">
+        </section>
+  </body>
