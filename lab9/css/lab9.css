@@ -1,0 +1,108 @@
+/*Adding fonts*/
+@import url('https://fonts.cdnfonts.com/css/meldina');
+@import url('https://fonts.cdnfonts.com/css/babel-sans');
+
+/*Changing the background color of the site*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d3aaaabf;
+}
+/*Chaning the h2's on the page so I can add fonts and stuff*/
+h2 {
+    color: #202020;
+    font-size: 175%;
+    margin: 2px;
+    font-family: 'Meldina', sans-serif;
+                                                
+                                                                                                                                     
+}
+/*Changing the paragraphs around the page so I can add fonts and other srtles*/
+p {
+    font-size: 150%;
+    letter-spacing: 0.01cm;
+    color: #181818;
+    font-family: 'BabelSans', sans-serif;                                                                                          
+}
+/*Changing the picture of the diamond so it is bigger and fits between the title properly*/
+.diamond-icon {
+    height: 100px; 
+    width: 100px; 
+    vertical-align: middle; 
+    margin-right: 10px; /*Space before the title*/
+    margin-left: 10px; /*Space after the title*/
+}
+/*Keeps the diamond logo and title in one line instead of the diamond trying to go on top*/
+#content h1 {
+    display: inline-block; 
+}
+
+/*Changing the title bar at the top(color, font, background color, all the goods*/
+#content {
+    text-align: center;
+    background-color: #a38088;
+    color: #563a78;
+    padding-top: 3rem;
+    font-family: 'Meldina', sans-serif;                                                                                                                                                                      
+    font-size: xx-large;
+    letter-spacing: 0.15cm;
+    margin: 0 auto; /* Centering it horizontally */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding and border */
+}
+
+#challenge, #problems, #results {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: solid 1px #563a78;
+    background-color: #a38088;
+    border-radius: 10px;
+    margin: 20px auto; /* Centered with vertical margins */
+    box-sizing: border-box; /* Include padding and border */
+    width: calc(100% - 40px); /* Adjust width to account for margin */
+    position: relative;
+    overflow: hidden;
+    transition: background 1s, box-shadow 1s;
+                                                
+}
+
+/*Pulsing/glowing effect that happens when you press the button*/
+#challenge.fancy, #problems.fancy, #results.fancy {
+    background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%); /*Colors of the keyframes*/
+    background-size: 200% 200%;
+    animation: gradientShift 3s ease infinite;
+    box-shadow: 0 0 15px 5px #ad9aff, 0 0 25px 10px #e188d6;
+}
+/*(GPT-4 Aided) Makes the colors in the box change and fade in and out between eachother*/
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Ensuring content in textboxes is above the shimmer effect(GPT-4 Aided)*/
+#challenge > *, #problems > *, #results > * {
+    position: relative;
+    z-index: 2; /* Higher z-index than the shimmer effect */
+}
+
+/*Styles for the button itself*/
+.special {
+    background-color: #563a78;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    font-family: 'BabelSans', sans-serif;                                                                                          
+}
+/* Darker shade on hover */
+.special:hover {
+    background-color: #402c59; 
+}
