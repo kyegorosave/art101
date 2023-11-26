@@ -1,0 +1,136 @@
+/*Fonts*/
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #14002e; /* Dark purple background */
+    
+    color: #f4f3ee; /* Light text for contrast */
+}
+
+h1, h2 {
+    color: #d3a625; /* Gold color for headers */
+    text-transform: uppercase; /* Uppercase for a stylized look */
+    font-family: 'Harry Potter', sans-serif;
+                                                
+}
+
+#content h1 {
+    display: inline-block; 
+}
+
+.ltng-bolt {
+    height: 100px; 
+    width: 100px; 
+    vertical-align: middle; 
+    margin-right: 10px; /*Space before the title*/
+    margin-left: 10px; /*Space after the title*/
+}
+
+#content {
+    text-align: center;
+    background-color: #540000;
+    color: white;
+    padding-top: 3rem;
+    
+    letter-spacing: 0.15cm;
+    margin: 0 auto; /* Centering it horizontally */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding and border */
+}
+
+/* Styling sections */
+#challenge, #problems, #results {
+    margin: 20px auto; /* Centering and margin */
+    padding: 20px; /* Padding inside sections */
+    background-color: #e6e6e6; /* Light background for sections */
+    border-radius: 10px; /* Rounded corners */
+    width: 80%; /* Width of sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Navigation Styles */
+nav#links ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+}
+
+nav#links li {
+    display: inline; /* Inline display for list items */
+    margin-right: 10px; /* Margin between links */
+}
+
+nav#links a {
+    text-decoration: none; /* Remove underline from links */
+    color: #0077cc; /* Link color */
+}
+
+/* Input and Button Styles */
+input[type=text] {
+    padding: 10px; /* Padding inside input box */
+    margin-top: 20px; /* Margin above input box */
+    margin-left: 5px; /* Moves it to the right */
+    border-radius: 5px; /* Rounded corners for input box */
+    border: 1px solid #ccc; /* Border for input box */
+}
+
+button {
+    padding: 10px 20px; /* Padding inside button */
+    background-color: #4a4a4a; /* Button background color */
+    color: white; /* Text color inside button */
+    border: none; /* No border for button */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Cursor change on hover */
+}
+
+button:hover {
+    background-color: #333333; /* Darker background on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section, div#challenge, div#problems, div#results {
+        width: 95%; /* Adjust width for mobile devices */
+    }
+}
+
+p {
+    color: black;
+}
+
+/* Sorting Hat and Output Styles */
+#sortingHatContainer {
+    position: relative;
+    display: inline-block; /* Allows the speech bubble to position relative to the image */
+}
+
+#houseOutput {
+    position: absolute;
+    top: 20px; /* Adjust as needed based on your image */
+    left: 100px; /* Adjust as needed */
+    width: 200px; /* Adjust as needed */
+    padding: 10px;
+    background-color: #f4f3ee;
+    border-radius: 10px;
+    border: 2px solid #444;
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+    color: #14002e;
+    display: none; /* Initially hidden */
+}
+
+/* Arrow-like shape at the bottom of the speech bubble */
+#houseOutput::after {
+    content: '';
+    position: absolute;
+    bottom: -20px; /* Positioning the arrow below the bubble */
+    left: 50%;
+    margin-left: -10px;
+    border-width: 20px 10px 0;
+    border-style: solid;
+    border-color: #f4f3ee transparent;
+    display: block;
+    width: 0;
+}
