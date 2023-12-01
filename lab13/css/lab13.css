@@ -2,25 +2,21 @@
 #closeButton {
     display: none;
 }
-/**/
+/*Organizes the output a little*/
 #output {
     margin-top: 20px;
 }
-/**/
+/*sets the wisth of the tbale*/
 #output table {
     width: 100%;
     border-collapse: collapse;
 }
-/**/
+/*Creates the actual table*/
 #output th, #output td {
-    border: 1px solid #ccc;
+    border: 5px solid #ccc;
     padding: 8px;
     text-align: center;
     color: white;
-}
-/**/
-#output th {
-    background-color: #f2f2f2;
 }
 
 /* General Styles */
@@ -28,14 +24,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: #191f27; /* background color */
-    color: black; /* Light text for contrast */
+    color: rgb(0, 0, 0); /* Light text for contrast */
 }
 
 h1, h2 {
-    color: #5a3f36; /* Gold color for headers */
-    text-transform: uppercase; /* Uppercase for a stylized look */
-    
-                                                
+    color: #5a3f36; /* color for headers */
+    text-transform: uppercase; /* Uppercase for a stylized look */                                          
 }
 
 #content h1 {
@@ -56,7 +50,6 @@ h1, h2 {
     background-color: #f2ded1;
     color: white;
     padding-top: 3rem;
-    
     letter-spacing: 0.15cm;
     margin: 0 auto; /* Centering it horizontally */
     width: 100%; /* Full width */
@@ -70,7 +63,7 @@ h1, h2 {
     background-color: #e6e6e6; /* Light background for sections */
     border-radius: 10px; /* Rounded corners */
     width: 80%; /* Width of sections */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.387); /* Subtle shadow for depth */
 }
 
 /* Navigation Styles */
