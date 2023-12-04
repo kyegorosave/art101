@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--Title for tabs and bookmarks and stuff-->
+	<title>Lab 14 Debugging Tools & Strategies - Kye Gorosave & Kevin Su</title>
+	<!--UTF character set-->
+  	<meta charset="UTF-8" />
+	<!--Set viewport so page remains consistently scaled w narrow devices-->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!--Linking the CSS file-->
+	<link rel="stylesheet" type="text/css" href="./css/lab14.css">
+	<!-- load jQuery library to makke javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<!--Linking the Javascript file-->
+    <script src = "./js/lab14.js" DEFER></script>
+	<!--Linking the fonts used-->
+
+</head>
+<body>
+	<!--The main content of the page and stuff-->
+	<main id="content">
+        <section>
+            <h1>
+                <img src = "" class = "">
+                Lab 14: Debugging Tools & Strategies
+                <img src = "" class = "">
+            </h1>
+            <!--Title split thingy-->
+            <!--Getting to the content of the page-->
+        </section>
+    </main>
+    <!--Challenge Section-->
+    <div id="challenge">
+        <h2>Challenge</h2>
+        <p>
+            The challenge of this lab was to use debugging knowledge that we learned from the lectures and apply it to our old labs to fix any previous issues we had.
+            Debugging is one of the most important aspects of developing because whether you like it or not, bugs are going to happen in your code, so learning to debbug 
+            properly and efficiently can save you from ripping your hair out.
+        </p>
+    </div>
+<!--Problems section-->
+    <div id="problems">
+        <h2>Problems</h2>
+        <p>
+            Ran into zero problems throughout the lab. Debugging labs 5 and 6 was easy and only had errors because it was an introduction to document.witeln and we didn't know what else to use yet.
+        </p>
+    </div>
+<!--Results section-->
+    <div id="results">
+        <h2>Results</h2>
+        <p>
+            I debugged Lab 5. Here's some screenshots!
+        </p>
+    </div>
+<!--Output Section-->
+    <div id = "debugging">
+        <h2>Debugging</h2>
+        <h4>Lab 5 JavaScript Source Code</h4>
+        <img src = "./images/lab5-js.png" class = "lab5-js">
+        <h4>Lab 5 Output</h4>
+        <img src = "./images/lab5-output.png" class = "lab5-output">
+        <p>For this lab, I was getting errors in my console because of using "document.writeln". Using document.writeln with asynchronously loaded scripts just does not work at all and has the chance to overwrite the 
+            entire document. It's easer to use some DOM manipulation instead, so I made a function called addTextToBody that creates a paragraph element, sets its text content, and then appends it to the body. Adding this doesnt make a super
+            drastic, insane change to the site or anything, it just gets rid of the errors in the console and cleans things up a little.
+        </p>
+        
+    </div>
+       
+        <!--Links back to our homepages-->
+		<nav id="links">
+			<ul>
+				<li><a href="https://kyegorosave.github.io/art101/">Kyes Homepage</a></li>
+				<li><a href="https://kaiwensu.github.io/art101/" >Kevins Homepage</a></li>
+                <li><a href="https://kyegorosave.github.io/art101/lab14/js/lab14.js">JavaScript File</a></li>
+			</ul>
+		</nav>
+	</div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+.lab5-js {
+    width: 500px;
+}
+.lab5-output {
+    width: 500px;
+}
+#challenge, #problems, #results, #debugging {
+    margin: 20px auto; /* Centering and margin */
+    padding: 20px; /* Padding inside sections */
+    background-color: #e6e6e6; /* Light background for sections */
+    border-radius: 10px; /* Rounded corners */
+    width: 80%; /* Width of sections */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.387); /* Subtle shadow for depth */
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #191f27; /* background color */
+    color: rgb(0, 0, 0); /* Light text for contrast */
+}
+
+h1, h2 {
+    color: #5a3f36; /* color for headers */
+    text-transform: uppercase; /* Uppercase for a stylized look */                                          
+}
+
+#content h1 {
+    display: inline-block; 
+}
+#content {
+    text-align: center;
+    background-color: #f2ded1;
+    color: white;
+    padding-top: 3rem;
+    letter-spacing: 0.15cm;
+    margin: 0 auto; /* Centering it horizontally */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding and border */
+}
