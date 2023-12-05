@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--Title for tabs and bookmarks and stuff-->
+	<title>Lab 15 Ajax - Kye Gorosave & Kevin Su</title>
+	<!--UTF character set-->
+  	<meta charset="UTF-8" />
+	<!--Set viewport so page remains consistently scaled w narrow devices-->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!--Linking the CSS file-->
+	<link rel="stylesheet" type="text/css" href="./css/lab15.css">
+	<!-- load jQuery library to makke javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<!--Linking the Javascript file-->
+    <script src = "./js/lab15.js" DEFER></script>
+	<!--Linking the fonts used-->
+
+</head>
+<body>
+	<!--The main content of the page and stuff-->
+	<main id="content">
+        <section>
+            <h1>
+                <img src = "./images/kanye-head.png" class = "kanye-title">
+                Lab 15: Ajax
+                <img src = "./images/kanye-head.png" class = "kanye-title">
+            </h1>
+            <!--Title split thingy-->
+            <!--Getting to the content of the page-->
+        </section>
+    </main>
+    <!--Challenge Section-->
+    <div id="challenge">
+        <h2>Challenge</h2>
+        <p>
+            The challenge of this lab was to be able use jQuery and AJAX together in order to manipulate the DOM and get whatever
+            it is you made displayed properly. jQuery has made itself known as a very important tool in JavaScript that allows you to cut your
+            code lines by a drastic amount, but AJAX is a new tool that we are learning that I feel opens a whole new door of opportunities.
+        </p>
+    </div>
+<!--Problems section-->
+    <div id="problems">
+        <h2>Problems</h2>
+        <p>
+            Ran into a few problems during the process of this lab. The JavaScript was not displaying the Kanye quote at all, but I figured it out to because
+            of my <span>"success:function(data)"</span> function just displaying to the console instead of on the screen. The Kanye head itself gave me a few issues
+            as well, but working around with CSS on Google Chrome is so extremely useful and I was able to get it positioned correctly and have it how I wanted it.
+        </p>
+    </div>
+<!--Results section-->
+    <div id="results">
+        <h2>Results</h2>
+        <p>
+            I like the way the page came out, I used a Kanye color way that I found on the internet. Press the "Activate" button below to see some <span>REAL</span>
+            Kanye West quotes!
+        </p>
+    </div>
+<!--Output Section-->
+    <div id = "output">
+        <h2>Output</h2>
+        <button id = "activate">Activate!</button>
+        <div id="kanye-container" style="display: none;">
+            <img src="./images/kanye-head.png" alt="Kanye West" id="kanye-head">
+            <div id="speech-bubble">Placeholder</div>
+        </div>
+    </div>
+       
+        <!--Links back to our homepages-->
+		<nav id="links">
+			<ul>
+				<li><a href="https://kyegorosave.github.io/art101/">Kyes Homepage</a></li>
+				<li><a href="https://kaiwensu.github.io/art101/" >Kevins Homepage</a></li>
+                <li><a href="https://kyegorosave.github.io/art101/lab15/js/lab15.js">JavaScript File</a></li>
+			</ul>
+		</nav>
+	</div>
+</body>
+</html>

@@ -11,6 +11,7 @@
     border-radius: 10px; /* Rounded corners */
     width: 80%; /* Width of sections */
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.387); /* Subtle shadow for depth */
+    font-family:sans-serif;
 }
 body {
     margin: 0;

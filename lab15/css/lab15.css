@@ -1,0 +1,86 @@
+/*Kanye speech bubble CSS stuff with help from GPT 4*/
+#kanye-container {
+    position: relative;
+    /* additional styling */
+}
+
+#speech-bubble {
+    position: absolute;
+    /* styling to make it look like a speech bubble */
+}
+
+body {
+    background-color: #411218; /* Dark brown background */
+    color: black; /* white text */
+    font-family: Arial, sans-serif;
+}
+
+#challenge, #problems, #results, #output {
+    background-color: white; /* Light brown for content areas */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.387); /* Subtle shadow for depth */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2 {
+    color: #3e5660; /* blue for headers */
+    text-transform: uppercase;
+}
+
+#kanye-container {
+    position: relative;
+    width: 300px; 
+    margin: 20px auto; /* Centering the container */
+}
+
+#kanye-head {
+    width: 100%; /* Adjust image to container's width */
+    display: block; /* Remove extra space below the image */
+    border-radius: 10px; 
+}
+
+#speech-bubble {
+    display: none; /* Initially hidden */
+    position: absolute;
+    top: 150px; 
+    left: 80%; /* Start from the middle of the Kanye image */
+     /* Center the bubble */
+    background-color: #8087b5; /* Blue for the speech bubble */
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #e8982e; /* Orange border */
+    color: #ffffff; /* White text inside the bubble */
+    width: 200px; 
+    text-align: center;
+}
+/* Additional Styling for other elements as needed */
+#content h1 {
+    display: inline-block; 
+    color: black;
+    font-size: xx-large;
+}
+#content {
+    text-align: center;
+    background-color: #e8982e;
+    color: white;
+    padding-top: 3rem;
+    letter-spacing: 0.15cm;
+    margin: 0 auto; /* Centering it horizontally */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding and border */
+}
+.kanye-title {
+    height: 300px; 
+    width: 300px; 
+    vertical-align: middle; 
+    margin-right: 10px; /*Space before the title*/
+    margin-left: 10px; /*Space after the title*/
+}
+span {
+    font-weight: bolder;
+    font-family: monospace;
+    color: black;
+    font-size: x-large;
+}
